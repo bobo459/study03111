@@ -38,5 +38,6 @@ public class java20240305Array {
         System.out.println(Arrays.toString(booList));
         System.out.println(Arrays.toString(charList));
         System.out.println(Arrays.toString(strList));
+
     }
 }

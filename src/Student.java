@@ -72,4 +72,6 @@ public class Student {
     public void displayAll() {
         System.out.println(this.name + " " + this.age + " " + this.address);
     }
+
+
 }

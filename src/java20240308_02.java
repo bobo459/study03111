@@ -11,6 +11,8 @@ public class java20240308_02 {
 //            }
 //            int average = sum / numberList.length;
 //            System.out.println(sum + " " + average);
+
+
 //        }
     }
 }

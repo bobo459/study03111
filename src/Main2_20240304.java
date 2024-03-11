@@ -137,6 +137,8 @@ public class Main2_20240304 {
         for (int k=0; k<3; k++) {
             for (int j=0; j<5; j++)
                 System.out.println("[k=" + k + ", j=" + j + "]");  //밖에 포문 1개당 작은 포문이 돈다
+
+
         }
     }
 }

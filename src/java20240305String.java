@@ -33,5 +33,8 @@ public class java20240305String {
         System.out.println(1 + 2 + "Hi");    // 3Hi  - 숫자먼저 나와 있으면 연산먼저 하기 때문에 더셈 먼저하고 글씨가 나오는것
         System.out.println("Hi" + 1 + 2);    // Hi12 - 글씨먼저 나와서 전체적으로 숫자도 글씨로 인식하므로 더셈을 안함
         System.out.println("Hi" + ( 1 + 2)); // Hi3  - 글씨 뒤에 연산을 해주고 싶으면 따로 계산하도록 따로 감싸줘야한다.
+
+
+
     }
 }

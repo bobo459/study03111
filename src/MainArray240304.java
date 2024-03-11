@@ -49,5 +49,7 @@ public class MainArray240304 {
         b = 6;
         System.out.println("2 " + b);
         System.out.println("3 " + a);
+
+
     }
 }

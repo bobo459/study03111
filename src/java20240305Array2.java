@@ -54,5 +54,8 @@ public class java20240305Array2 {
 
         //자바는 compile언어 1.complie time 실행여부와 상관없이 코드를 모두 확인한다.
         // 2. run Time  모든 코드가 실행이 되는건 아니다. 메스드 호출이 없거나 if로 어디는 실행되고 안되는 부분이 있다.
+
+
+
     }
 }

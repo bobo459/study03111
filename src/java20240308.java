@@ -61,5 +61,7 @@ public class java20240308 {
         }
         int average = sum / numberList.length;
         System.out.println(sum + " " + average);
+
+
     }
 }

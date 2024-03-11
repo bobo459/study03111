@@ -32,6 +32,8 @@ public class java20240307_2024040306 {
         }
         if (k == members.length) {
             System.out.println("회원가입해주세요");
+
+
         }
     }
 }
