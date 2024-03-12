@@ -1,8 +1,8 @@
-public class MainArray240304 {
+public class java20240304Array {
     public static void main(String[] args) {
         System.out.println("Hello World");
 
-        //배열의 기본 선언법
+        //배열의 기본 선언법//
         int[] intArray1 = {1,2,3,4,5};   // 값을 지정하지 않아도 갯수를 지정하지 않아도 표시됨으로 heep 이 됨
         System.out.println(intArray1[0]);
 
