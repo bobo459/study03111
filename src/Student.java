@@ -1,4 +1,6 @@
-public class Student {
+public class Student {   //240313 - 클래스 패키지를 만들고 나중에 옮겨주면 인식을 새로 만든 패키지 student 클래스를 자동으로 사용한다고 처리되기 때문에
+                                   //같은 디폴트패키지 안에서 에러가 난다면 student 앞에 패키지 이름이 붙어서 에러를 내는지 확인해봐야한다.
+                                   //해결방안은 그냥 일일히 이름을 지원서 원상태로 복구해주기
     private String name;
     private int age;
     private String address;

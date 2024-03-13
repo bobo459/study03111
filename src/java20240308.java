@@ -4,7 +4,7 @@ public class java20240308 {
         //모든 참조형이 이런 구조로 되어있다.
         //1번 방법
         Student tom = new Student("Tom", 18, "Deajeon", "123456");
-        //Student라는 클래스를 사용하겠다, 문구는 tom = new 새로운 내용을 정의하겠다, Student 클래스를 쓸것이다(힙에 생성되는 내용값을 입력해주겠다)
+        //Student라는 클래스를 사용하겠다, 문구는 tom = new 새로운 내용을 정의하겠다, Java0313.Student 클래스를 쓸것이다(힙에 생성되는 내용값을 입력해주겠다)
         Student steve = new Student("steve", 25, "Seoul", "123456");
         Student paul = new Student();
 //        //2번 방법 - private 을 붙이면 더이상 이 코드로는 읽을 수 없어진다.
