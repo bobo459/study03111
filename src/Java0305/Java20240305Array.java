@@ -1,6 +1,8 @@
+package Java0305;
+
 import java.util.Arrays;
 
-public class java20240305Array {
+public class Java20240305Array {
     public static void main(String[] args) {
         //배열 선언법
         int[] intArray1;    // 자바 스타일!!!- 이걸 사용하면 됨

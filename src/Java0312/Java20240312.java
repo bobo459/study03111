@@ -1,4 +1,6 @@
-public class java20240312 {
+package Java0312;
+
+public class Java20240312 {
     int a = 10;
     static int b =20;
 

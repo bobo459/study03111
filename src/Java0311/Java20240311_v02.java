@@ -1,4 +1,6 @@
-public class java20240311_v02 { //7.2.5 가변 길이배열 243p
+package Java0311;
+
+public class Java20240311_v02 { //7.2.5 가변 길이배열 243p
     static int a = 1;
 
     static int b = 2;

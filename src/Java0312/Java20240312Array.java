@@ -1,6 +1,8 @@
+package Java0312;
+
 import java.util.Arrays;
 
-public class java20240312Array {
+public class Java20240312Array {
     public static void main(String[] args) {
         //아래 배열의 모든 값들을 다른 배열에 복사하기
 

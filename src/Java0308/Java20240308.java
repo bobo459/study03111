@@ -1,4 +1,6 @@
-public class java20240308 {
+package Java0308;
+
+public class Java20240308 {
     public static void main(String[] args) {
 
         //모든 참조형이 이런 구조로 되어있다.

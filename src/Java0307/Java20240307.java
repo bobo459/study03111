@@ -1,9 +1,9 @@
-import java.util.ArrayList;
+package Java0307;
+
 import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
 
-public class java20240307 {
+public class Java20240307 {
     public static void main(String[] args) {
         //6. 아래 배열에서 입력받은 값보다 큰 수만 출력하시오
     /*    int[] intList1 = {1,2,3,4,5,6,7,8,9,10};

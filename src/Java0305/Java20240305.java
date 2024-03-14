@@ -1,4 +1,6 @@
-public class java20240305 {
+package Java0305;
+
+public class Java20240305 {
     public static void main(String[] args) {
         //break = 제어문의 중괄호를 탈출시키는 키워드
         //자기를 싸고 있는 가장가까운 중괄호 하나를 탈출한다.

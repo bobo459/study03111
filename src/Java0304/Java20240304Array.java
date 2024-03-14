@@ -1,4 +1,6 @@
-public class java20240304Array {
+package Java0304;
+
+public class Java20240304Array {
     public static void main(String[] args) {
         System.out.println("Hello World");
 

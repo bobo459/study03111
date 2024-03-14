@@ -1,6 +1,8 @@
+package Java0307;
+
 import java.util.Scanner;
 
-public class java20240307_2024040306 {
+public class Java20240307_2024040306 {
     public static void main(String[] args) {
         //5. 사용자로부터 이름을 입력받아 아래 회원배열에 있는 이름이면
         //"~~~님 확영합니다" 를 출력하고

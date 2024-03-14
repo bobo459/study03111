@@ -1,4 +1,6 @@
-public class java20240308_02 {
+package Java0308;
+
+public class Java20240308_02 {
     public static void main(String[] args) {
 
 //        void getsumAvg() {

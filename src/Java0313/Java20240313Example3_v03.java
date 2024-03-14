@@ -2,23 +2,23 @@ package Java0313;
 
 import java.util.Scanner;
 
-public class Java20240313Example3_v03 {
+public class Java20240313Example3_v03 {    // 2번문제 오른쪽으로 돌아가게 변경해보시오. 심화문제로 풀어보기.
     public static void main(String[] args) {
 
         int [] arr = new int [] {1, 2, 3, 4, 5};
         int n = 3;
-
-     /*   Scanner sc = new Scanner(System.in);  // 2번문제 오른쪽으로 돌아가게 변경해보시오. 심화문제로 풀어보기.
-        System.out.println("숫자를 입력하세요. : ");
-        int[] n = new int[sc.nextInt()];*/
-
 /*
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("숫자를 입력하세요. : ");
+        int[] n = new int[sc.nextInt()];
+*/
+
+
         System.out.println("Original array: ");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length-1; i--) {
             System.out.print(arr[i] + " ");
         }
-*/
 
         for(int i = 0; i < n ; i++){
             int j, first;
@@ -33,9 +33,8 @@ public class Java20240313Example3_v03 {
             System.out.print(arr[i] + " ");
         }
 
-/*
         for(int i = 0; i< arr.length; i++){
             System.out.print(arr[i] + " ");
-        }*/
+        }
     }
 }

@@ -1,4 +1,6 @@
-public class java20240305String {
+package Java0305;
+
+public class Java20240305String {
     public static void main(String[] args) {
         //String 클래스의 첫번째 특징
         //객체의 값을 변경하면 새로운 객체를 생성 (주소값이 새로운 주소로 변경)

@@ -1,6 +1,8 @@
+package Java0312;
+
 import java.util.Arrays;
 
-public class java20240312Array_v2 {
+public class Java20240312Array_v2 {
     public static void main(String[] args) {
         //중복되는 횟수를 카운트하는 것
         int[] arr = new int[]{1, 2, 8, 3, 2, 2, 2, 5, 1};

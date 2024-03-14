@@ -1,7 +1,9 @@
+package Java0305;
+
 import java.util.Arrays;
      //자바 및에 유틸이 있으니 가져오라는 말
 
-public class java20240305Array2 {
+public class Java20240305Array2 {
     public static void main(String[] args) {
         //기본자료형의 복사 ==> 값 복사
         int a = 3;

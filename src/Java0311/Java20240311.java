@@ -1,6 +1,8 @@
+package Java0311;
+
 import java.util.Arrays;
 
-public class java20240311 {
+public class Java20240311 {
     public static void main(String[] args) {
 
 // 실습문제
