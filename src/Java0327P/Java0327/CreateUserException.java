@@ -1,4 +1,4 @@
-package Java0327;
+package Java0327P.Java0327;
 
 class MyException extends Exception {
     public MyException() {

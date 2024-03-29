@@ -1,4 +1,4 @@
-package Java0326;
+package Java0326P.Java0326;
 
 public interface A {  //클래스와 성질이 달라 이름부터 달라진다. 서로 주고 받기 위해 일을 정리하는것
 

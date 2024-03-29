@@ -1,4 +1,4 @@
-package Java0327Example;
+package Java0327P.Java0327Example;
 
 public class LinearSearchExample {
     public static int linearSearch(int[] arr, int key){

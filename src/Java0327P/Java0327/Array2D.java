@@ -1,4 +1,4 @@
-package Java0327;
+package Java0327P.Java0327;
 
 public class Array2D {
     public static void main(String[] args) {

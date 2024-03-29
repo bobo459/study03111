@@ -18,16 +18,49 @@ public class Q4 {
         다시 유저가 60을 입력하면, "맞췄습니다" 출력
         "시도횟수는 3번입니다" 출력하고 종료
     */
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // 1~100사이의 임의의 값을 얻어서 answer에 저장한다.
-        int answer = (int)(Math.random() * 100) + 1;
+        int answer = (int) (Math.random() * 100) + 1;
         int input = 0; // 사용자입력을 저장할 공간
         int count = 0; // 시도횟수를 세기위한 변수
 
         Scanner sc = new Scanner(System.in);
+        System.out.print("1과 100 사이의 정수를 입력하세요. : ");
+        System.out.print("정답 : "+ answer);
+
         do {
-            // 여기 코드를 작성
-        } while(true); // 무한반복문
+            count = count+1;
+
+            input =sc.nextInt();
+            if (input > answer) {
+                System.out.println("더 작은 수를 입력하세요");
+
+            }
+            else if (input < answer) {
+                System.out.println("더 큰 수를 입력하세요");
+            }
+            else {
+                System.out.println("정답은 " + answer + " 맞췄습니다.");
+                System.out.println("시도 횟수는 " + count + " 입니다.");
+
+                break;
+            }
+
+
+        } while(true);  // 무한반복문
+
+
+
+
+/*
+                if (input == answer) {
+                    System.out.println(answer + "맞췄습니다");
+                } else if (input < answer) {
+                    System.out.println(answer + "더 작은 수를 입력하세요");
+                } else {
+                    System.out.println(answer + "더 큰 수를 입력하세요");
+                }
+
+                */
     }
 }

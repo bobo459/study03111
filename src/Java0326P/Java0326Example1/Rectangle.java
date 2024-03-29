@@ -1,4 +1,4 @@
-package Java0326Example1;
+package Java0326P.Java0326Example1;
 
 public class Rectangle implements Shape { //2.직사각형
     private double length;

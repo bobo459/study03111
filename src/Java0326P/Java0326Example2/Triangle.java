@@ -1,4 +1,4 @@
-package Java0326Example2;
+package Java0326P.Java0326Example2;
 
 //삼각형을 면,둘레를 구하는 식을 만들어보자
 public class Triangle implements Shape {

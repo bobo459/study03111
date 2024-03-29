@@ -1,4 +1,4 @@
-package Java0326Example2;
+package Java0326P.Java0326Example2;
 
 public class Main {  //삼각형 구하기~~
     public static void main(String[] args) {

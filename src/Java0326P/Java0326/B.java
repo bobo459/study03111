@@ -1,4 +1,4 @@
-package Java0326;
+package Java0326P.Java0326;
 
 public interface B {
     public static final int a = 20;

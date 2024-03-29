@@ -1,4 +1,4 @@
-package Java0326Example2;
+package Java0326P.Java0326Example2;
 
 public class StrSumExample {
 

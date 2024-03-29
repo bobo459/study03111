@@ -1,4 +1,4 @@
-package Java0327Example;
+package Java0327P.Java0327Example;
 
 public class BinarySearchExample {
     public static void binarySearch(int arr[], int first, int last, int key){

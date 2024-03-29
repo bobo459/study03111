@@ -4,9 +4,6 @@ public class LectureRegistration {
     String userID;
     int lectureId;
 
-    public LectureRegistration() {
-    }
-
     public LectureRegistration(String userID, int lectureId) {
         this.userID = userID;
         this.lectureId = lectureId;
@@ -27,5 +24,6 @@ public class LectureRegistration {
     public void setLectureId(int lectureId) {
         this.lectureId = lectureId;
     }
-
 }
+
+

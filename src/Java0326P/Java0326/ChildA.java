@@ -1,4 +1,4 @@
-package Java0326;
+package Java0326P.Java0326;
 
 public class ChildA implements A,B {  //빨간줄뜨면 에러 확인해서 파랑글씨 눌러서 override 만들어준다.
     @Override

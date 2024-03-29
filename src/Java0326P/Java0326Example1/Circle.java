@@ -1,4 +1,4 @@
-package Java0326Example1;
+package Java0326P.Java0326Example1;
 
 public class Circle implements Shape {  //3.원의 면적과 둘레
     private double radius;  //반지름
