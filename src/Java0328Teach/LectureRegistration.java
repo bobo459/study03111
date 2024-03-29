@@ -1,6 +1,6 @@
 package Java0328Teach;
 
-public class LectureRegistration {
+public class LectureRegistration { //관계를 표시하는 클래스는 무지막지하게 심플해야한다.
     String userId;
     int lectureId;
 

@@ -9,6 +9,8 @@ import java.time.LocalDate;
         LocalDate birthDate;
         String email;
 
+/*        Lecture[] lectures; //이 클래스에 계속 무언가를 붙이게 된다면 굉장히 무거워질 수 있다.*/
+
         public User() {
         }
 
