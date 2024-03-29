@@ -1,11 +1,10 @@
-package Java0328Next;
+package Java0329Teach;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class InfoCreate {
     public static void createInfos() {
-
         Main.users = new ArrayList<>();
         Main.users.add(new User("Steve", "hero11", "pass"
                 , LocalDate.of(1999,1,1), "steve@email.com"));

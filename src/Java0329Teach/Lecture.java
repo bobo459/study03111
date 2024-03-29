@@ -1,4 +1,4 @@
-package Java0328Next;
+package Java0329Teach;
 
 public class Lecture {
     int lectureId;

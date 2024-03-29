@@ -1,6 +1,6 @@
 package Java0328New;
 
-import Java0328Next.InfoCreate;
+import Java0329.Category;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -12,10 +12,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        InfoCreate.createInfos();
+
 
         // 강의 ID로 수강하는 학생의 loginId 찾기
-        getLoginIdByLectureId(2);
+/*        getLoginIdByLectureId(2);*/
         // 유저의 loginId로 강의명 찾기
 /*        getTitleByLoginId("hero11");
         // 강의명으로 수강생들의 이메일 찾기
@@ -36,9 +36,9 @@ public class Main {
 
 
         ArrayList<Lecture> lectures = new ArrayList<>();
-        lectures.add(new Lecture(1, "Java", "Programming", 120, "초급"));
-        lectures.add(new Lecture(2, "Spring", "sing", 60, "중급"));
-        lectures.add(new Lecture(3, "Array", "ArratList", 25, "고급"));
+        lectures.add(new Lecture(1, Category01.ARRAY, "Programming", 120, "초급"));
+        lectures.add(new Lecture(2, Category01.JAVA, "sing", 60, "중급"));
+        lectures.add(new Lecture(3, Category01.SPRING, "ArratList", 25, "고급"));
 
 
 /*        System.out.println(steve.toString());
@@ -62,12 +62,12 @@ public class Main {
 
     }
 
-    public static void getLoginIdByLectureId(int lectureId) {
+/*    public static void getLoginIdByLectureId(int lectureId) {
         for (int i=0; i<lectureRegistrations.size(); i++){
             if (lectureRegistrations.get(i).getLectureId() == lectureId) {
                 System.out.println("1. 로그인ID : "
                         + lectureRegistrations.get(i).getLectureId());
             }
-        }
-    }
+        }*/
+
 }
