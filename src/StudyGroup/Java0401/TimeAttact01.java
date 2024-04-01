@@ -12,8 +12,11 @@ public class TimeAttact01 {
     public static void main(String[] args) {
         //조건을 구하고 참일때 숫자와 시도 횟수를 아니면 에러 출력한다.
         //조건안에 수를 구하는 규칙이 있는 반복문을 작성
+        Scanner sc = new Scanner(System.in);
+        System.out.println("숫자를 입력하시오. : ");
+        int num = sc.nextInt();
 
-        int num = 10;
+/*        int num = 10;*/
         int count = 0;
 
         if (num >= 1 && num <= 100){
