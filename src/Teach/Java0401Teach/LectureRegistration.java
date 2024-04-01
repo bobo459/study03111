@@ -1,4 +1,4 @@
-package Java0329Teach;
+package Teach.Java0401Teach;
 
 public class LectureRegistration {
     String loginId;
