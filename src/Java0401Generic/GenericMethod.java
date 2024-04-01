@@ -10,7 +10,7 @@ class GenericMethods{  //<=일반클래스. 일반클래스 안에 정의한 제
 /*    public T method1(T t) {  //<T>를 지우면 <T>를 찾을 수 없다고 오류가 난다. 어딘가에 T가 있을거라고 믿고 찾아다님.
         return t;
     }*/
-    public <T> boolean method1(T t1, T t2) { // <T> 하나만 쓴거면 제네럴타입을 1개만 쓰겠다는 의미, (T t1, T t2) 파라미터는 몇개는 상관없음
+    public <T> boolean method1(T t1, T t2) { // <T> 하나만 쓴거면 제네럴타입을 1개만 쓰겠다는 의미
         return t1.equals(t2);
     }
 }
