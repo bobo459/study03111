@@ -42,7 +42,6 @@ public class TimeAttack02 {
                         "결과값은 150보다 작은 수 입니다." : "결과값은 150입니다.";
                 System.out.println(three);
 
-
             } else if (Input % 2 == 1) {
                 jump=2;
                 for (int j= Input; j<=10; j++){
@@ -55,7 +54,7 @@ public class TimeAttack02 {
             }
         } else {
             System.out.println("Error");
-            
+
         }
         switch (jump){
             case 1:
