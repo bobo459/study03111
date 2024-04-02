@@ -14,7 +14,7 @@ public class Java240402Study {
         int [] ArrayFor = new int[4] ;
         for (int i =0 ; i<ArrayFor.length; i++){
             ArrayFor[i]=i;
-        }
+        }System.out.println(Arrays.toString(ArrayFor));
         System.out.println();
 
 //        ArrayJinGyeonBirthday[0] = 2;
