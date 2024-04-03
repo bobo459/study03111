@@ -25,10 +25,10 @@ public class HW02 {
             System.out.print(ArrayBirthDay[j]+", ");
         }System.out.println();
 
-        int ArrayBirthDay2[] =new int[]{15,25,35,45,55,65,75,85,95,105};
-        for (int k = 0;k<ArrayBirthDay2.length;k++){
-            ArrayBirthDay[k] = ArrayBirthDay2[k];
-            System.out.print(ArrayBirthDay2[k]+", ");
+        int ArrayBirth2[] =new int[]{15,25,35,45,55,65,75,85,95,105};
+        for (int k = 0;k<ArrayBirth2.length;k++){
+            ArrayBirthDay[k] = ArrayBirth2[k];
+            System.out.print(ArrayBirth2[k]+", ");
         }System.out.println();
 
         for (int l = 0;l<ArrayBirthDay.length;l++){
