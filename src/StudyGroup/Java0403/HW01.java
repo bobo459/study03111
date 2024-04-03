@@ -21,14 +21,14 @@ public class HW01 {
         for (int i =0; i<3;i++){
             sum = lang+math+Eng;
             count++;
-        }System.out.println(sum);
+        }System.out.println("학생의 총점은 "+sum +" 이다.");
         System.out.println(count);
 
 
         for (int j =0; j<count ;j++){
             mul = sum/count;
         }
-        System.out.println(mul);
+        System.out.println("학생의 평균은 "+mul+" 이다.");
 
 
     }
