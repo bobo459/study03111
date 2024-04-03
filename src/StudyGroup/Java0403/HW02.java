@@ -17,12 +17,12 @@ public class HW02 {
 
         for (int i = 0;i<ArrayBirthDay.length;i++){
             ArrayBirthDay[i] = i+1;
-            System.out.print(ArrayBirthDay[i]+" ");
+            System.out.print(ArrayBirthDay[i]+", ");
         }System.out.println();
 
         for (int j = 0;j<ArrayBirthDay.length;j++){
             ArrayBirthDay[j] =(j+1)*10;
-            System.out.print(ArrayBirthDay[j]+" ");
+            System.out.print(ArrayBirthDay[j]+", ");
         }System.out.println();
 
 
@@ -30,7 +30,7 @@ public class HW02 {
         int a= 0;
         for (int k=0;k<ArrayBirthDay.length;k++){
             ArrayBirthDay[k] = k+15;
-            System.out.print(ArrayBirthDay[k]+" ");
+            System.out.print(ArrayBirthDay[k]+", ");
         }System.out.println();
 
 
@@ -38,7 +38,7 @@ public class HW02 {
 
         for (int l = 0;l<ArrayBirthDay.length;l++){
             ArrayBirthDay[l] =99;
-            System.out.print(ArrayBirthDay[l]+" ");
+            System.out.print(ArrayBirthDay[l]+", ");
         }//System.out.println(Arrays.toString(ArrayBirthDay));
 
 
