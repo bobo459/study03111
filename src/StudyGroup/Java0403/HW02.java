@@ -14,30 +14,21 @@ public class HW02 {
 
         int[] ArrayBirthDay = new int[10];
 
-
         for (int i = 0;i<ArrayBirthDay.length;i++){
             ArrayBirthDay[i] = i+1;
-            System.out.print(ArrayBirthDay[i]+", ");
-        }System.out.println();
+        }System.out.println(Arrays.toString(ArrayBirthDay));
 
         for (int j = 0;j<ArrayBirthDay.length;j++){
-            ArrayBirthDay[j] =(j+1)*10;
-            System.out.print(ArrayBirthDay[j]+", ");
-        }System.out.println();
+            ArrayBirthDay[j] = ArrayBirthDay[j]*10;
+        }System.out.println(Arrays.toString(ArrayBirthDay));  //
 
-        int ArrayBirth2[] =new int[]{15,25,35,45,55,65,75,85,95,105};
-        for (int k = 0;k<ArrayBirth2.length;k++){
-            ArrayBirthDay[k] = ArrayBirth2[k];
-            System.out.print(ArrayBirth2[k]+", ");
-        }System.out.println();
+        for (int k = 0;k<ArrayBirthDay.length;k++){
+            ArrayBirthDay[k] = ArrayBirthDay[k]+5;
+        }System.out.println(Arrays.toString(ArrayBirthDay));
 
         for (int l = 0;l<ArrayBirthDay.length;l++){
-            ArrayBirthDay[l] =99;
-            System.out.print(ArrayBirthDay[l]+", ");
-        }
-
-
-
+            ArrayBirthDay[l] = 99;
+        }System.out.println(Arrays.toString(ArrayBirthDay));
 
     }
 }
