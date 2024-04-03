@@ -34,7 +34,7 @@ public class HW02 {
         for (int l = 0;l<ArrayBirthDay.length;l++){
             ArrayBirthDay[l] =99;
             System.out.print(ArrayBirthDay[l]+", ");
-        }//System.out.println(Arrays.toString(ArrayBirthDay));
+        }
 
 
 
