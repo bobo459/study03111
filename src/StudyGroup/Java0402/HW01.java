@@ -38,7 +38,6 @@ public class HW01 {
                     sum = a + b;
                     System.out.println("더한 값 : " + sum);
                     break;
-
                 case 2 :
                     min = a - b;
                     System.out.println("뺀 값 : "+ min);
