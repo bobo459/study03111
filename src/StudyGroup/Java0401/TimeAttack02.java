@@ -38,6 +38,7 @@ public class TimeAttack02 {
                     sum = sum+i;
                 }
                 System.out.println("입력한 값이 짝수일때 뒤에 값을 모두 더한 값: " + sum);
+
                 String three =(sum >150) ? "결과값은 150보다 큰 수 입니다" :  (sum <150) ?
                         "결과값은 150보다 작은 수 입니다." : "결과값은 150입니다.";
                 System.out.println(three);
