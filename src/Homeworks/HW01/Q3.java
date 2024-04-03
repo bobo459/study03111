@@ -1,6 +1,4 @@
-package HW01;
-
-import java.util.ArrayList;
+package Homeworks.HW01;
 
 /*  1) 아래의 필드를 가지는 Student 클래스를 선언하시오
         String name // 학생이름
