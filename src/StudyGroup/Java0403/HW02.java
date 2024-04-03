@@ -25,16 +25,11 @@ public class HW02 {
             System.out.print(ArrayBirthDay[j]+", ");
         }System.out.println();
 
-
-
-        int a= 0;
-        for (int k=0;k<ArrayBirthDay.length;k++){
-            ArrayBirthDay[k] = k+15;
-            System.out.print(ArrayBirthDay[k]+", ");
+        int ArrayBirthDay2[] =new int[]{15,25,35,45,55,65,75,85,95,105};
+        for (int k = 0;k<ArrayBirthDay2.length;k++){
+            ArrayBirthDay[k] = ArrayBirthDay2[k];
+            System.out.print(ArrayBirthDay2[k]+", ");
         }System.out.println();
-
-
-
 
         for (int l = 0;l<ArrayBirthDay.length;l++){
             ArrayBirthDay[l] =99;
