@@ -37,21 +37,24 @@ public class EX01 {
                 b++;
             }
         }
-/*
-        for (int m=0;m<Array5.length;m++){
-            if (Array5[a]==Array10[b]){
-                Array0[c] = m;
-            }//System.out.println(m);
-        }//System.out.println(Arrays.toString(Array0));
-*/
-        System.out.println(Arrays.toString(Array5));
-        System.out.println(Arrays.toString(Array10));
-        for (int i=0;i<100;i++){
-            if (Array5==Array10){
-                Array0[c]= i;
-                i++;
+       // System.out.println(Arrays.toString(Array5));
+       // System.out.println(Arrays.toString(Array10));
+
+  /*      for (int j =0; j <= Array5.length ; j++){
+            if ( Array5 == Array10 ) {
+                Array0[c] = j;
+                c++;
+            }
+        }System.out.println(Arrays.toString(Array0));*/
+
+        //Array5와 Array10에 있는 같은 수를 Array0에 저장해라.
+        for(int i = 0; i < Array5.length; i++) {
+            for(int j =0;j<Array10.length;j++){
+                if(Array5[i]==Array10[j]){
+                    Array0[c]=Array5[i];
+                    c++;
+                }
             }
         }System.out.println(Arrays.toString(Array0));
-
     }
 }

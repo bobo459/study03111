@@ -10,6 +10,9 @@ import java.util.Scanner;
 public class HW03 {
     public static void main(String[] args) {
 
+
+
+
         Scanner sc = new Scanner(System.in);
         System.out.print("학생 st1 의 성적을 적어주세요. : ");
         int Ouput = sc.nextInt();

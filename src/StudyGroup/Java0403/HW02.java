@@ -30,5 +30,25 @@ public class HW02 {
             ArrayBirthDay[l] = 99;
         }System.out.println(Arrays.toString(ArrayBirthDay));
 
+/*
+
+        for (int j = 1;j<ArrayBirthDay.length;j++){
+            ArrayBirthDay[j] =j*10;
+            System.out.print(ArrayBirthDay[j]+", ");  //ArrayBirthDay[i] : 배열의 인덱스를 나타낸다
+        }System.out.println(Arrays.toString(ArrayBirthDay));
+
+        int ArrayBirth2[] =new int[]{15,25,35,45,55,65,75,85,95,105};
+        for (int k = 0;k<ArrayBirth2.length;k++){
+            ArrayBirthDay[k] = ArrayBirth2[k];
+            System.out.print(ArrayBirth2[k]+", ");
+        }System.out.println();
+
+        for (int l = 0;l<ArrayBirthDay.length;l++){
+            ArrayBirthDay[l] =99;
+            System.out.print(ArrayBirthDay[l]+", ");
+        }
+
+*/
+
     }
 }
