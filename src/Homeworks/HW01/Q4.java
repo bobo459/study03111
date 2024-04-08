@@ -2,7 +2,7 @@ package Homeworks.HW01;
 
 import java.util.Scanner;
 
-public class Q4 {
+public class Q4 {//무한루프를 사용해보라는 의도
     /*
         1) answer값보다 큰 수를 입력했을 경우에는 "더 작은 수를 입력하세요"를 출력하고
         다시 입력값을 받아야함
@@ -41,13 +41,14 @@ public class Q4 {
             }
             else {
                 System.out.println("정답은 " + answer + " 맞췄습니다.");
-                System.out.println("시도 횟수는 " + count + " 입니다.");
+           //     System.out.println("시도 횟수는 " + count + " 입니다.");
 
                 break;
             }
 
 
         } while(true);  // 무한반복문
+        System.out.println("시도 횟수는 " + count + "번 입니다.");
 
 
 

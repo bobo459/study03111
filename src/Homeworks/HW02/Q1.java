@@ -11,6 +11,7 @@ public class Q1 {
 
     public static String changeCase(String str) {
         // 여기 코드 작성 !!
+<<<<<<< Updated upstream
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
             if (Character.isLowerCase(c)) {
@@ -20,6 +21,10 @@ public class Q1 {
             }
         }
 
+=======
+        //String[] str1 = new String[];
+>>>>>>> Stashed changes
         return "";
+
     }
 }
