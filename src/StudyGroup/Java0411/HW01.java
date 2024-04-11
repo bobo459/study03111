@@ -19,7 +19,9 @@ public class HW01 {
         int c=50;
         if (b+c>a) {
             System.out.println("True");
-        }else {
+        } else if ( b+c == a) {
+            System.out.println();
+        } else {
             System.out.println("False");
         }
 
