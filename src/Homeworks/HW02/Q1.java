@@ -20,13 +20,11 @@ public class Q1 {
                 str += Character.toLowerCase(c);
             }
         }
-<<<<<<< Updated upstream
+
 
 
         //String[] str1 = new String[];
 
-=======
->>>>>>> Stashed changes
         return "";
 
     }

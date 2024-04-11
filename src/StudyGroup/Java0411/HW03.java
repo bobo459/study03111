@@ -7,13 +7,15 @@ package StudyGroup.Java0411;
  */
 public class HW03 {
     public static void main(String[] args) {
+        int i;
         int conut = 0;
-        for (int i = 1; i <= 100; i++) {
+        for (i = 1; i <= 100; i++) {
             if (i%2==0 && i%5==0){
                 conut++;
                 System.out.print(i+", ");
             }
         }System.out.println();
         System.out.println("총 반복 횟수는 : " + conut);
+        System.out.println("for문의 총 반복 횟수는 : " + i);
     }
 }
