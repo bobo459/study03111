@@ -27,7 +27,7 @@ where 주문번호 = 'H0250';
 -- '부산광역시' 고객이 주문한 주문건수
 select count(*) as 주문건수
 from 주문
-where 고객번호 in (select 고객번호 from 고객
+where 고객번호 in (select 고객번호 from 고객  -- in =or 또는
 				where 도시 ='부산광역시');
 
 -- '부산광역시' 전체고객의 마일리지보다 마일리지가 큰 고객의 정보
@@ -43,7 +43,7 @@ from 고객
 where 마일리지 > all (select avg (마일리지) from 고객
 				group by 지역);
 
--- 한 번이라도 주문한적이 있는 고객의 정보
+-- 한 번이라도 주문한적이 있는 고객의 정보 - exists: 서브커리에 붙어있는 모든것을 사용하겠다
 select 고객번호, 고객회사명
 from 고객
 where exists (select * from 주문 
@@ -61,7 +61,7 @@ select 고객.고객번호, 고객회사명
 from 고객
 where 고객번호 in (select distinct 고객번호 from 주문);
 
-
+-- distinct : 중복제거를 할때 사용
 			
 -- join 을 이용하여 동일한 결과 얻기
 -- 내 답
