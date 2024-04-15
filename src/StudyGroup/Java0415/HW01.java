@@ -12,7 +12,7 @@ public class HW01 {
 
         for (int i = 0; i < 100 ; i++) {
             if (userNum==i){
-                System.out.println(i);
+                System.out.println("사용자가 찾는 수: "+i);
             }
         }
     }
