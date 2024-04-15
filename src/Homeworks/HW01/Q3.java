@@ -5,7 +5,7 @@ package Homeworks.HW01;
         int ban // 반
         int no // 번호
         int kor // 국어점수
-        int eng // 영어점수
+        int eng // 영어점수 -
         int math // 수학점수
     2) main 메서드의 실행결과가 표시된대로 출력되도록 toString을 오버라이딩하시오
     3) 평균값을 계산하는 getAvg 메서드를 만드시오
