@@ -22,8 +22,35 @@ import java.util.Scanner;
 public class HW01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("질문에는 예, 아니오로 답해주세요");
         System.out.println("1. 당신의 키는 160cm 이상입니까?");
         String input = scanner.nextLine();
+
+        System.out.println("2. 당신은 검은색 머리입니까?");
+        String input2 = scanner.nextLine();
+
+        System.out.println("3. 당신은 이성친구가 있습니까?");
+        String input3 = scanner.nextLine();
+
+        System.out.println("4. 당신의 나이는 12살보다 많습니까?");
+        String input4 = scanner.nextLine();
+
+        System.out.println("5. 당신은 반바지를 입었습니까?");
+        String input5 = scanner.nextLine();
+        int True=0;
+        int False = 0;
+        for (int i = 0; i < 2; i++) {
+            if ( i%2==0 ){
+                True=i;
+                System.out.println(True);
+            }else {
+                System.out.println("False");
+            }
+
+        }
+
+
+
 
 
 
