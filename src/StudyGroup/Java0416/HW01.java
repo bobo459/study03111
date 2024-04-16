@@ -17,7 +17,7 @@ import java.util.Scanner;
 수지 160cm 빨간머리 남자친구X 14살 긴팔 긴바지
 유리 162cm 탈색머리 남자친구0 17살 반팔 반바지
 
-답변지를 예 아니오로만 나오게 해보기
+사용자의  답변지를 예 아니오로만 나오게 해보기
  */
 public class HW01 {
     public static void main(String[] args) {
