@@ -10,9 +10,18 @@ public class HW01 {
         Scanner scanner = new Scanner(System.in);
         int userNum = scanner.nextInt();
 
+/*
         for (int i = 0; i < 100 ; i++) {
             if (userNum==i){
                 System.out.println("사용자가 찾는 수: "+i);
+            }
+        }
+*/
+
+        for (int i = 0;  ; i++) {
+            if (userNum==i){
+                System.out.println("사용자가 찾는 수: "+i);
+                break;
             }
         }
     }
