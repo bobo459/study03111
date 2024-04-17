@@ -25,6 +25,7 @@ import java.util.Scanner;
 public class HW01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+/*
 
 
         String input = scanner.nextLine();
@@ -76,6 +77,7 @@ public class HW01 {
         }else {
             System.out.println("예,아니오로 답해주세요");
         }
+*/
 
     }
 }
