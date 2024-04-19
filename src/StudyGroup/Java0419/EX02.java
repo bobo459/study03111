@@ -12,14 +12,16 @@ public class EX02 {
         System.out.println("원하는 배열 길이가 몇인가요? : ");
         int input = scn.nextInt();
         int[] a = new int[input];
+        int b = 0 ;
 
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; ; i++) {
             if (i%2==0){
-                a[i] = i;
-                i=i+1;
+                a[b] = i;
+                b=b+1;
+            }
+            if (b==input){
+                break;
             }
         }System.out.println(Arrays.toString(a));
-
-
     }
 }
