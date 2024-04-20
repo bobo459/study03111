@@ -18,6 +18,6 @@ public class HW02 {
             }
             sum = sum + i;
         }System.out.println("입력한 숫자의 총 합 : "+sum);
-        System.out.println(count-1 );
+        System.out.println(count );
     }
 }
