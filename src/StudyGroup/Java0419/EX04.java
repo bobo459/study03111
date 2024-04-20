@@ -10,16 +10,13 @@ public class EX04 {
         int sum = 0;
 
         for (int i = 0; i < a.length; i++) {
-
             sum = sum +a[i];
 
-            System.out.println("총 합 : "+sum);
-            if (50<=sum){
+            if (sum>=50){
                 a[i] = i;
                 System.out.println("합이 50이 넘었을때의 인덱스 번호 : "+ a[i]);
                 break;
             }
-        }
-
+        }System.out.println("총 합 : "+sum);
     }
 }
