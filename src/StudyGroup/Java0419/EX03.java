@@ -8,7 +8,6 @@ public class
 EX03 {
     public static void main(String[] args) {
         int[] z = new int[]{1,2,3,4,5,6,7,8,9,10};
-        int square = 0;
         for (int i = 0; i < z.length; i++) {
             z[i] = z[i]*z[i];
         } System.out.println(Arrays.toString(z));
