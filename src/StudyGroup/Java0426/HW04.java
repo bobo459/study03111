@@ -58,7 +58,7 @@ public class HW04 {
                 }
                 staAge++;
             }
-        }
+        }else System.out.println("해당사항이 없어요");
 
     }
 }
