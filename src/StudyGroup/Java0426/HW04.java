@@ -27,6 +27,26 @@ public class HW04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("나이를 적어주세요 : ");
-        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int count = 0;
+        int count1 = 0;
+        int count2 = 0;
+        int a = 0;
+
+        for (int i = 0; i < 12 ; i++) {
+            count++;
+            a = i + 8;
+            if (a==b) {
+                    if (a <= 13) {
+                        System.out.println("초등학교 " + count + "학년");
+                    } else if (14 <= b && b <= 16) {
+                        count1++;
+                        System.out.println("중학교 " + count1 + "학년");
+                    } else if (17 <= b && b <= 19) {
+                        count2++;
+                        System.out.println("고등학교 " + count2 + "학년");
+                    }
+            }
+        }
     }
 }

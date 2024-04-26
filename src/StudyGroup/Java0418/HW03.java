@@ -15,9 +15,10 @@ public class HW03 {
         int input = scn.nextInt();
 
         for (int i = 0; i < a.length; i++) {
-            if ( i+1 ==  input) {
-                System.out.println(a[i]);
+            if (  a[i] ==  input) {
+                System.out.println(i);
             }
         }
+
     }
 }

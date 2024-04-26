@@ -44,8 +44,8 @@ public class HW02 {
         for (int i = 0; i < 12 ; i++) {
             a = i + 8;
             if (17<=a && a<=19){
-                count1++;
-                System.out.println(count1 + "학년 = " + a + "살");
+                count2++;
+                System.out.println(count2 + "학년 = " + a + "살");
             }
         }
     }
