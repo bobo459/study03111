@@ -16,11 +16,11 @@ public class HW05 {
         int[] c = new int[100];
 
         for (int i = 0; i < a.length; i++) {
-            a[i] = a[i]+i;
+            a[i] = a[i]+i;    // a[i] = i+1; i가 0부터 시작해야하는데, 배열[]에 i를 더하는게 아닌 배열 안에 i+1 한 값을 대입해서 넣어줘야한다.
             b[i] = 101+i;
             c[i] = 201+i;
             if (input == a[i]){
-                System.out.println(i);
+                System.out.println(i);  //알기 쉽게 s.o.p 안에 ("a배열, "+i+"번째 인덱스") 의 내용을 적어줘야한다.
             }
             else if (input == b[i]){
                 System.out.println(i);
@@ -28,6 +28,7 @@ public class HW05 {
             else if (input == c[i]){
                 System.out.println(i);
             }
-        }//100을 못넣음..
+        }
+
     }
 }
