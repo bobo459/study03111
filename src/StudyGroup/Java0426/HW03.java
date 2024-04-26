@@ -8,7 +8,7 @@ public class HW03 {
     public static void main(String[] args) {
         int a = 0;
         int count = 0;
-        for (int i = 1; i < 9; i++) {
+        for (int i = 1; i < 10; i++) {
             a= 8*i;
             count++;
             System.out.println("8 * "+ count + " = "+a);
