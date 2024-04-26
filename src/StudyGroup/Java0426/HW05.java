@@ -29,6 +29,28 @@ public class HW05 {
                 System.out.println(i);
             }
         }
+/*      수중이 수정본
+        Scanner sc = new Scanner(System.in);
+        System.out.println("숫자를 1~300중 적어주세요 : ");
+        int input = sc.nextInt();
+        int[] a = new int[100];
+        int[] b = new int[100];
+        int[] c = new int[100];
+
+        for (int i = 0; i < a.length; i++) {
+            a[i] = i+1;
+            b[i] = 101+i;
+            c[i] = 201+i;
+            if (input == a[i]){
+                System.out.println("a배열, "+i+"번째 인덱스");
+            }
+            else if (input == b[i]){
+                System.out.println("b배열, "+i+"번째 인덱스");
+            }
+            else if (input == c[i]){
+                System.out.println("c배열, "+i+"번째 인덱스");
+            }
+        }*/
 
     }
 }
