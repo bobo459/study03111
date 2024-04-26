@@ -27,14 +27,38 @@ public class HW04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("나이를 적어주세요 : ");
-        int input = sc.nextInt();
-        if (input>=8 && input>=13){
-
+        int age = sc.nextInt();
+        if (age>=8 && age<=13){       //8~13살까지이면
+            int staAge = 8;           //8 부터 시작하는 변수를 만들고
+            for (int i = 0; ; i++) {    //if의 조건에 해당하면 반복문을 실행한다.
+                int g = i + 1;          //학년은 for문이 한번씩 돌때마다 1씩 증가할거고
+                if (staAge == age) {       //8부터 시작한 숫자가 입력한 나이와 같으면 실행한 것이다.
+                    System.out.println("초등학생 " + g + "학년");  //staAge와 입력받은 나이와 같아지면 그동안 돌았던 g을 출력한다.
+                    break;             //실행이 되면 가까운 for문을 탈출한다.
+                }
+                staAge++;               //안에 if가 실행하지 않으므로 8부터 시작한 숫자는 +1씩 증가 한다.
+            }
+        } else if (age>=14 && age <= 16) {
+            int staAge = 14;
             for (int i = 0; ; i++) {
-
+                int g = i+1;
+                if (staAge == age){
+                    System.out.println("중학생 " + g + "학년");
+                    break;
+                }
+                staAge++;
+            }
+        } else if (age >=17 && age <= 19){
+            int staAge = 17;
+            for (int i = 0; ; i++) {
+                int g = i +1;
+                if (staAge == age) {
+                    System.out.println("고등학생 " + g + "학년");
+                    break;
+                }
+                staAge++;
             }
         }
-
 
     }
 }
