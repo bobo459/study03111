@@ -6,17 +6,19 @@ import java.util.Arrays;
 //  이 배열의 인덱스끼리의 합이 50을 넘어가는 지점의 인덱스 번호를 출력하시오.
 public class EX04 {
     public static void main(String[] args) {
-        int[] a = {1,2,3,4,5,6,7,8,9,10};
+       int[] a = {1,2,3,4,5,60,7,8,9,10};
         int sum = 0;
 
         for (int i = 0; i < a.length; i++) {
             sum = sum +a[i];
 
-            if (sum>=50){
-                a[i] = i;
-                System.out.println("합이 50이 넘었을때의 인덱스 번호 : "+ a[i]);
-
+            if (sum>50){
+               // a[i] = i;
+                System.out.println("합이 50이 넘었을때의 인덱스 번호 : "+i);
+                break;
             }
         }System.out.println("총 합 : "+sum);
+
     }
+
 }
