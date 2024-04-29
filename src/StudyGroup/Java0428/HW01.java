@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class HW01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("국어, 수학, 사회, 과학 점수를 적어주세요 : ");
+
         int[] a = new  int[4];
         int[] b = new  int[4];
         int[] c = new  int[4];
@@ -21,27 +21,28 @@ public class HW01 {
         int i;
         float avg = 0;
         int sum = 0;
-
+        System.out.print("1번학생 국어, 수학, 사회, 과학 점수를 적어주세요 : ");
         for (i = 0; i < a.length; i++) {
             int age = sc.nextInt();
                 a[i] =  age;
             }
+        System.out.print("2번학생 국어, 수학, 사회, 과학 점수를 적어주세요 : ");
         for (i = 0; i < b.length; i++) {
             int age1 = sc.nextInt();
-            a[i] =  age1;
-        }
+            b[i] =  age1;
+        }System.out.print("3번학생 국어, 수학, 사회, 과학 점수를 적어주세요 : ");
         for (i = 0; i < c.length; i++) {
             int age2 = sc.nextInt();
-            a[i] =  age2;
-        }
+            c[i] =  age2;
+        }System.out.print("4번학생 국어, 수학, 사회, 과학 점수를 적어주세요 : ");
         for (i = 0; i < d.length; i++) {
             int age3 = sc.nextInt();
-            a[i] =  age3;
+            d[i] =  age3;
+        }System.out.print("5번학생 국어, 수학, 사회, 과학 점수를 적어주세요 : ");
+        for (i = 0; i < d.length; i++) {
+            int age4 = sc.nextInt();
+            e[i] =  age4;
         }
-
-
-
-
       //  sum = sum +age;
         avg = sum / a.length;
         System.out.println(Arrays.toString(a));
