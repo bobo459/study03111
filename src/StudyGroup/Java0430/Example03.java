@@ -1,6 +1,7 @@
 package StudyGroup.Java0430;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 /* 참고자료 0430(3) 파일 참고해서 코드 작성
 
@@ -14,8 +15,30 @@ public class Example03 {
     public static void main(String[] args) {
         String str1 = "Hello, My name is Alex, nice to meet you.";
         String str2 = "I am 26. but I'm still student.";
+        String str3;
+        String a;
 
-        str1 = str1.toCharArray();
+
+        str3 = str1.concat(str2);
+        System.out.println("1번 : " + str3);
+
+        a = String.valueOf(str1.length());
+        System.out.println("2번 : " + a);
+
+        str2 = String.valueOf(str2.indexOf("26"));
+        System.out.println("3번 : " + str2);
+
+
+  /*      String[] test;
+        int testLength=0;
+        test =str3.split("a");
+        System.out.println(Arrays.toString(test));   //a를 기준으로 분할 해서 3분할이 됬다.
+        testLength = test.length;
+        System.out.println(testLength);              //분할된 배열 길이를 구해줌.
+        */
+        int c = str3.split("a").length-1;
+        System.out.println("4번 : " + c);
+
 
     }
 }
