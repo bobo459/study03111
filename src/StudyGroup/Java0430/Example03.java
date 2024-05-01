@@ -16,18 +16,17 @@ public class Example03 {
         String str1 = "Hello, My name is Alex, nice to meet you.";
         String str2 = "I am 26. but I'm still student.";
         String str3;
-        String a;
-
+        String str4;
+        String str5;
 
         str3 = str1.concat(str2);
         System.out.println("1번 : " + str3);
 
-        a = String.valueOf(str1.length());
-        System.out.println("2번 : " + a);
+        str4 = String.valueOf(str1.length());
+        System.out.println("2번 : " + str4);
 
-        str2 = String.valueOf(str2.indexOf("26"));
-        System.out.println("3번 : " + str2);
-
+        str5 = String.valueOf(str2.indexOf("26"));
+        System.out.println("3번 : " + str5);
 
   /*      String[] test;
         int testLength=0;
