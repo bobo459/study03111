@@ -19,12 +19,12 @@ public class Example02 {
         str1 = str1.replace("!","하세요").replace("나는","저는");
         str2 = str1.replace("저는","나는").concat(". "+str2);
         str3 = str3.toLowerCase();
-        str4 = str4.;
+        str4 = str4.replaceAll("[^a-zA-Z]", "");
 
         System.out.println(str1);
         System.out.println(str2);
         System.out.println(str3);
-        //System.out.println(str4);
+        System.out.println(str4);
 
 /*        String str10 = "안녕! 나는 '김개똥'입니다!";
         char[] c = new char[10];
