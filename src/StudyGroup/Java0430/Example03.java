@@ -28,14 +28,14 @@ public class Example03 {
         str5 = String.valueOf(str2.indexOf("26"));
         System.out.println("3번 : " + str5);
 
-  /*      String[] test;
-        int testLength=0;
-        test =str3.split("a");
+/*        String[] test;
+        int testLength = 0;
+        test = str3.split("a");
         System.out.println(Arrays.toString(test));   //a를 기준으로 분할 해서 3분할이 됬다.
         testLength = test.length;
-        System.out.println(testLength);              //분할된 배열 길이를 구해줌.
-        */
-        int c = str3.split("a").length-1;      //분할이 a를 기준으로 앞뒤 분할이라 -1를 해서 뒤에 분할을 빼준다.
+        System.out.println(testLength);              //분할된 배열 길이를 구해줌.*/
+
+        var c = str3.split("a").length - 1;      //분할이 a를 기준으로 앞뒤 분할이라 -1를 해서 뒤에 분할을 빼준다.
         System.out.println("4번 : " + c);            //ex) --- a --- a --- 으로 된것을 -1을 해서 --- a --- a 로 만들어준 것
 
 
