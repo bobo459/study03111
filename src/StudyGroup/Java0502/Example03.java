@@ -3,10 +3,14 @@ package StudyGroup.Java0502;
 //단 길이는 20개로 한함
 public class Example03 {
     public static void main(String[] args) {
-        int a = 0;
-        for (int i = 1; i < 20; i++) {
-            a = a+i;
-            System.out.println(a);
+        int a = 1;
+        int b = 1;
+        for (int i = 2; i < 20; i++) {
+            int c = a + b;
+            a = b;
+            b = c;
+
+            System.out.print(" "+c);
         }
 
     }
