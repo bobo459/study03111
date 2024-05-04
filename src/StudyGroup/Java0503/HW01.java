@@ -12,18 +12,15 @@ public class HW01 {
         int[] a=new int[10];
 
         for (int i = 0; i < a.length; i++) {
-            int num =1;
-            a[i] = num + i;
+            a[i] = 1 + i;
         }System.out.println(Arrays.toString(a));
 
         for (int i = 0; i < a.length; i++) {
-            int num =1;
-            a[i] = (num+i) * 3 ;
+            a[i] = (1+i) * 3 ;
         }System.out.println(Arrays.toString(a));
 
         for (int i = 0; i < a.length; i++) {
-            int num =1;
-            a[i] = (num+i) * 5 ;
+            a[i] = (1+i) * 5 ;
         }System.out.println(Arrays.toString(a));
 
     }

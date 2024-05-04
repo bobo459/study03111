@@ -15,7 +15,6 @@ public class HW03 {
         String[] c = new String[a.length+b.length];
         int num = 0;
         int num1 = 0;
-
         for (int i = 0; i < a.length+b.length; i++) {
             if (i%2==0){
             c[i] = a[num] ;
