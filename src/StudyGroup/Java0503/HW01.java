@@ -12,7 +12,8 @@ public class HW01 {
         int[] a=new int[10];
 
         for (int i = 0; i < a.length; i++) {
-            a[i] = a[i] + i;
+            int num =1;
+            a[i] = num + i;
         }System.out.println(Arrays.toString(a));
 
         for (int i = 0; i < a.length; i++) {
