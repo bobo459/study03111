@@ -14,15 +14,24 @@ public class HW02 {
         int a = 0;
         int b = 0;
         int c = 0;
-        int count =0;
-        for (int i = 0; i < classA.length; i
-
-                ++) {
-            if (classA.equals("김%")) {
-                count++;
+        for (int i = 0; i < classA.length; i++) {
+            if (classA[i].contains("김")) {
+                a++;
             }
         }
-        System.out.println(count);
+        for (int i = 0; i < classB.length; i++) {
+            if (classB[i].contains("김")) {
+                b++;
+            }
+        }
+        for (int i = 0; i < classC.length; i++) {
+            if (classC[i].contains("김")) {
+                c++;
+            }
+        }
+        System.out.println("A반의 김씨는 : "+a+" 명");
+        System.out.println("A반의 김씨는 : "+b+" 명");
+        System.out.println("A반의 김씨는 : "+c+" 명");
 
 
     }
