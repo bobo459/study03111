@@ -8,18 +8,15 @@ import java.util.Scanner;
 public class Example05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
+        int w = sc.nextInt();
         Scanner sc2 = new Scanner(System.in);
-        int input2 = sc2.nextInt();
+        int h = sc2.nextInt();
 
-        String[][] star = new String[input][input2];
-        for (int i = 0; i < star.length; i++) {
-
-                star[i][i] = "*";
-
-
+        for (int i = 0; i < w; i++) {
+            for (int j = 0; j < h; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
-        System.out.println(Arrays.toString(star[0]));
-        System.out.println(Arrays.toString(star[1]));
     }
 }
