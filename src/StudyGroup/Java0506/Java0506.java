@@ -1,4 +1,4 @@
-package StudyGroup;
+package StudyGroup.Java0506;
 
 import java.util.Arrays;
 
@@ -23,15 +23,26 @@ public class Java0506 {
         int tmp = 0;
         int sum = 0;
 
-        for (int i = 0; i < array.length; i++) {     //arry 길이 만큼 계산하겠다.
+     /*   for (int i = 0; i < array.length; i++) {     //arry 길이 만큼 계산하겠다.
             sum= sum + array[i];
             for (int j = 1; j < array.length; j++) { //arry 1번 인덱스 위치부터 시작하겠다
-                if (array[i] < array[j]) {           //값의 1번째 인덱스 값과 그 후 값을 비교해서 j값이 크다면 입력하기
+
+                if (array[i] >= array[j]) {           //값의 1번째 인덱스 값과 그 후 값을 비교해서 j값이 크다면 입력하기
                     tmp = array[j];
                     array[j] = array[i];
                     array[i]=tmp;
                 }
-            }
+            }*/
+            for (int i = 0; i < array.length; i++) {
+                sum= sum + array[i];
+                for (int j = array.length-1; j >i; j--) {
+
+                    if (array[i] >= array[j]) {
+                        tmp = array[j];
+                        array[j] = array[i];
+                        array[i]=tmp;
+                    }
+                }
 
         }System.out.println(tmp);
         System.out.println();
