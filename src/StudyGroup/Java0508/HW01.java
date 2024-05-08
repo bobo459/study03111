@@ -17,6 +17,10 @@ Random rd = new Random();
 //1. 프로그램을 설계하시오.
 //2. 코드를 작성하시오.
 
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
+
 /*1. 프로그램을 설계하시오.
 로또번호와 유저의 로또번호와 맞는지 확인해주는 프로그램을 짜보자.
 
@@ -32,6 +36,49 @@ Random rd = new Random();
  */
 public class HW01 {
     public static void main(String[] args) {
+        Random rd = new Random();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("원하는 로또번호 6개를 입력하세요.");
+
+
+        int[] rand = new int[6];
+        int[] input = new int[rand.length];
+
+        for (int i = 0; i < rand.length ; i++) {
+            int randNum = rd.nextInt(45) + 1;
+            rand[i]=randNum;
+        }System.out.println("로또 번호 : " + Arrays.toString(rand));
+
+        for (int i = 0; i <rand.length; i++) {
+            input[i] = sc.nextInt();
+            for (int j = 0; j < i; j++) {
+                if (input[i] == input[j]) {
+                    i--;
+                    System.out.println("다시 입력하시오");
+                    break;
+                }
+            }
+        }System.out.println("입력한 로또번호 : " + Arrays.toString(input));
+        /*(당첨 번호 끼리는 서로 값이 중복 되지 않아야 한다.)
+        1등 = 6개 모두 일치
+        2등 = 5개 일치
+        3등 = 4개 일치
+        나머지는 모두 꽝
+*/
+        for (int i = 0; i < rand.length; i++) {
+            if (input[i]==rand[i]){
+                System.out.println("1등입니다.");
+            } else if (input[i]==rand[i]) {
+                System.out.println("2등입니다.");
+            } else if (input[i]==rand[i]) {
+                System.out.println("3등입니다.");
+            }else {
+                System.out.println("꽝입니다.");
+            }
+
+
+        }
+
 
     }
 }
