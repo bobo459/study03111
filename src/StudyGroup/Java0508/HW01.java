@@ -44,36 +44,53 @@ public class HW01 {
         int[] rand = new int[6];
         int[] input = new int[rand.length];
 
-        for (int i = 0; i < rand.length ; i++) {
+        for (int i = 0; i < rand.length; i++) {
             int randNum = rd.nextInt(45) + 1;
-            rand[i]=randNum;
-        }System.out.println("로또 번호 : " + Arrays.toString(rand));
+            rand[i] = randNum;
+        }
+        System.out.println("로또 번호 : " + Arrays.toString(rand));
 
-        for (int i = 0; i <rand.length; i++) {
+        for (int i = 0; i < rand.length; i++) {
             input[i] = sc.nextInt();
             for (int j = 0; j < i; j++) {
-                if (input[i] == input[j]) {
+                if (1 <= input[i] && input[i] <= 45) {
+                    if (input[i] == input[j]) {
+                        i--;
+                        System.out.println("다시 입력하시오");
+                       // break; : 읽으면 시간이 단축되서 사용을 하지만, 굳이 안해도 되면 안써도 된다.
+                    }
+                } else {
                     i--;
-                    System.out.println("다시 입력하시오");
+                    System.out.println("1~45까지의 숫자를 입력해주세요.");
                     break;
                 }
             }
-        }System.out.println("입력한 로또번호 : " + Arrays.toString(input));
+        }
+        System.out.println("입력한 로또번호 : " + Arrays.toString(input));
         /*(당첨 번호 끼리는 서로 값이 중복 되지 않아야 한다.)
         1등 = 6개 모두 일치
         2등 = 5개 일치
         3등 = 4개 일치
         나머지는 모두 꽝
 */
+        int count =0 ;
         for (int i = 0; i < rand.length; i++) {
             if (input[i]==rand[i]){
+                count++;
+        }
+
+            if (count==6) {
                 System.out.println("1등입니다.");
-            } else if (input[i]==rand[i]) {
+                break;
+            } else if (5 == count) {
                 System.out.println("2등입니다.");
-            } else if (input[i]==rand[i]) {
+                break;
+            } else if (4 == count) {
                 System.out.println("3등입니다.");
-            }else {
+                break;
+            } else {
                 System.out.println("꽝입니다.");
+                break;
             }
 
 
