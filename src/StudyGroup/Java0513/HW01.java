@@ -14,7 +14,7 @@ public class HW01 {
         int [] name = new int[5];
         //ex) name = tomGrade
         int sum =0;
-        int avg =0;
+        double avg =0;
 
         name = tomGrade;
         for (int i = 0; i < name.length; i++) {
