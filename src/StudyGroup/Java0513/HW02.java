@@ -18,14 +18,15 @@ public class HW02 {
         String a= sc.nextLine();
 
         System.out.println("찾고하 하는 문자를 입력하세요.");
-        char c = sc.next().charAt(0);  //.charAt(0) 문자의 첫번째 부터~
+        char c = sc.next().charAt(0);  //.charAt(0) 문자의 첫번째 위치
 
         int count = 0;
         for (int i = 0; i < a.length(); i++) {
-            if (a.charAt(i)==c) { //a.charAt(i) a문자열을 char화시키고 그것의 i번째 부터 비교하여, c와 같은 것을 찾는다.
+            if (a.charAt(i)==c) { //a.charAt(i) a문자열을 char화시키고 그것의 i번째 부터 비교하여, c와(입력받은 문자의 0번째) 같은 것을 찾는다.
                 count++;
             }
         }
         System.out.println(count);
+
     }
 }
