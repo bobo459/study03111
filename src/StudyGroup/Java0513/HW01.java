@@ -13,7 +13,7 @@ public class HW01 {
         //name 에는 각각의 학생들이 들어올 수 있다.
         int [] name = new int[5];
         //ex) name = tomGrade
-        int sum =0;
+        double sum =0;
         double avg =0;
 
         name = tomGrade;
