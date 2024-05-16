@@ -9,16 +9,16 @@ public class SumNum {
     int sum =0;
     int sub =0;
     int num =0;
-    public String sum() {
+    public int sum() {
         sum = input + input2;
-        return input +" + " + input2 +" = "+ sum;
+        return sum;
     }
-    public String sub() {
+    public int sub() {
         sub = input - input2;
-        return input +" - " + input2 +" = "+ sub;
+        return sub;
     }
-    public String num() {
+    public int num() {
         num = sum +sub;
-        return sum +" + " + sub +" = "+ num;
+        return  num;
     }
 }
