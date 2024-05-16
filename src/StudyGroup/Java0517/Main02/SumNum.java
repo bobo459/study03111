@@ -35,7 +35,7 @@ public class SumNum {
         sub = input - input2;
         return sub;
     }
-    public int num(int input, int input2) {
+    public int num() {
         num = sum + sub;
         return num;
     }

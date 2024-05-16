@@ -18,7 +18,7 @@ public class Main02 {
 
         System.out.println(sum1.sum(input,input2));
         System.out.println(sum1.sub(input,input2));
-        System.out.println(sum1.num(input,input2));
+        System.out.println(sum1.num());
 
 
     }
