@@ -23,20 +23,16 @@ public class SumNum {
         }*/
 
 
-    int sum = 0;
-    int sub = 0;
-    int num = 0;
-
     public int sum(int input, int input2) {
-        sum = input + input2;
+        int sum = input + input2;
         return sum;
     }
     public int sub(int input, int input2) {
-        sub = input - input2;
+        int sub = input - input2;
         return sub;
     }
-    public int num() {
-        num = sum + sub;
+    public int num(int a, int b) {
+        int num = a + b;
         return num;
     }
 }
