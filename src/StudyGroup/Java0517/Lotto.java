@@ -13,16 +13,16 @@ public class Lotto {
 
     int count =0;
 
-    public int[] randomLotto() {
-        for (int i = 0; i < random.length; i++) {
-            random[i] = rd.nextInt(45) + 1;
+    public int[] randomLotto(int[] a) {
+        for (int i = 0; i < a.length; i++) {
+            a[i] = rd.nextInt(45) + 1;
             for (int j = 0; j < i ; j++) {
-                if (random[j] == random[i]) {
+                if (a[j] == a[i]) {
                     i--;
                 }
             }
         }
-        return random;
+        return a;
     }
 
     public int[] rangeNum(int[] a) {
@@ -38,19 +38,19 @@ public class Lotto {
         } return a;
     }
 
-    public int[] userLotto( ) {
-        for (int i = 0; i < random.length; i++) {
-            userNum[i] = scanner.nextInt();
-            if (1>userNum[i] || userNum[i]>45){
+    public int[] userLotto( int[] a ) {
+        for (int i = 0; i < a.length; i++) {
+            a[i] = scanner.nextInt();
+            if (1>a[i] || a[i]>45){
                 i--;
             }
             for (int j = 0; j < i; j++) {
-                if (userNum[j] == userNum[i]){
+                if (a[j] == a[i]){
                     i--;
                 }
             }
         }
-        return userNum;
+        return a;
     }
 
     public String ranking() {
