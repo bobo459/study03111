@@ -35,11 +35,11 @@ public class Main {
         Lotto lotto = new Lotto();
         System.out.println(Arrays.toString(lotto.randomLotto()));
 
-        System.out.println(Arrays.toString(lotto.rangeNum()));
+        System.out.println(Arrays.toString(lotto.rangeNum(lotto.random)));
 
         System.out.println(Arrays.toString(lotto.userLotto()));
 
-        //System.out.println(Arrays.toString(lotto.rangeNum()));
+        System.out.println(Arrays.toString(lotto.rangeNum(lotto.userNum)));
 
         System.out.println(lotto.ranking());
 

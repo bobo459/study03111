@@ -78,7 +78,6 @@ public class HW01 {
             if (input[i]==rand[i]){
                 count++;
         }
-
             if (count==6) {
                 System.out.println("1등입니다.");
                 break;
