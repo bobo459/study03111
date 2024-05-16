@@ -10,11 +10,15 @@ public class Main02 {
         //2. 두 수를 빼는 메서드를 만드시오.
         //3. 1과 2를 더하는 메서드를 만드시오.
 
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+        int input2 = sc.nextInt();
+
         SumNum sum1 = new SumNum();
 
-        System.out.println(sum1.sum());
-        System.out.println(sum1.sub());
-        System.out.println(sum1.num());
+        System.out.println(sum1.sum(input,input2));
+        System.out.println(sum1.sub(input,input2));
+        System.out.println(sum1.num(input,input2));
 
 
     }
