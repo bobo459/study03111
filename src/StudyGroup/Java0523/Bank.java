@@ -13,15 +13,21 @@ public class Bank {
         myMoney = myMoney-withdraw;
         return myMoney;
     }
-    public int deposit(int myMoney, int deposit){
+    public int deposit(int myMoney){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("입금하실 금액을 입력하세요.");
+        int deposit = scanner.nextInt();
         myMoney = myMoney + deposit;
         return myMoney;
     }
-    public int remittance(int myMoney){
+    public int remittance(int myMoney, int youMoney){
         Scanner scanner = new Scanner(System.in);
         System.out.println("출금하실 금액을 입력하세요.");
         int withdraw = scanner.nextInt();
         myMoney = myMoney - withdraw;
+    /*    youMoney = youMoney + withdraw;
+        int [] all = {myMoney,youMoney};
+        return all;*/
         return myMoney;
     }
 }

@@ -20,12 +20,15 @@ public class HW01 {
         Bank bank = new Bank();
         myMoney = bank.balance(myMoney);
         System.out.println(myMoney);
-        myMoney = bank.deposit(myMoney,youMoney);
+        myMoney = bank.deposit(myMoney);
         System.out.println(myMoney);
         myMoney = bank.withdraw(myMoney);
         System.out.println(myMoney);
-
-        myMoney = bank.remittance(myMoney);
+/*        int [] all =new int[2];
+        myMoney = bank.remittance(myMoney,youMoney);
+        all[0] =myMoney;
+        all[1] = youMoney;
         System.out.println(myMoney);
+        System.out.println(youMoney);*/
     }
 }
