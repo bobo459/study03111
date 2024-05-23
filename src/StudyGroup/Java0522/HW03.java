@@ -2,23 +2,27 @@ package StudyGroup.Java0522;
 
 import java.util.Arrays;
 import java.util.Scanner;
-class MaxAndMin{
-    public int[] maxAndMin(int[] num){
+class MaxAndMin {
+    public int[] maxAndMin01(int[] num) {
         Scanner sc = new Scanner(System.in);
-        int temp=0;
         for (int i = 0; i < num.length; i++) {
             int input = sc.nextInt();
-            num[i]=input;
-        }return num;
- /*       for (int i = 0; i < num.length; i++) {
-            for (int j = num.length-1; j > i; j--) {
+            num[i] = input;
+        }
+        return num;
+    }
+
+    public int[] maxAndMin02(int[] num) {
+        int temp = 0;
+        for (int i = 0; i < num.length; i++) {
+            for (int j = num.length - 1; j > i; j--) {
                 if (num[i] >= num[j]) {
                     temp = num[j];
-                    num[j] =num[i];
+                    num[j] = num[i];
                     num[i] = temp;
                 }
             }
-        }*/
+        }return num;
     }
 }
 public class HW03 {
@@ -51,10 +55,12 @@ public class HW03 {
         int max = num[9];
 
         MaxAndMin maxAndMin = new MaxAndMin();
-        maxAndMin.maxAndMin(num);
+        maxAndMin.maxAndMin01(num);
+        maxAndMin.maxAndMin02(num);
 
-        System.out.println(Arrays.toString(maxAndMin.maxAndMin(num)));
-
+        System.out.println(Arrays.toString(num));
+        System.out.println(min);
+        System.out.println(max);
 
     }
 }

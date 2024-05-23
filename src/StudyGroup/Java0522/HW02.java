@@ -11,7 +11,7 @@ class Digit{
         } else if (100<=input && input<1000){
             return "100의 자리 입니다.";
         }
-        return null;
+        return "범위를 벗어났습니다.";
     }
 }
 public class HW02 {
