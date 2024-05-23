@@ -24,6 +24,7 @@ public class HW01 {
         System.out.println(myMoney);
         myMoney = bank.withdraw(myMoney);
         System.out.println(myMoney);
+
         myMoney = bank.remittance(myMoney);
         System.out.println(myMoney);
     }
