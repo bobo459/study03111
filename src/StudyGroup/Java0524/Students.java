@@ -28,7 +28,7 @@ public class Students {
     public int[] grade(int[] student){
         Scanner scanner = new Scanner(System.in);
         System.out.println("국어, 수학, 사회, 과학 순으로 점수를 적어주세요;");
-        for (int i = 0; i < 4 ; i++) {
+        for (int i = 0; i < student.length ; i++) {
             student[i] = scanner.nextInt();
         }return student;
     }
